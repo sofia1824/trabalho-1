@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo e Áudio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        iframe, audio {
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Vídeo e Áudio na Mitologia Nórdica</h1>
+
+    <h2> Vídeo sobre Mitologia Nórdica</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U2NRnptPgpw?si=RMbiGhz5hyzxETT8&amp;start=14" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2> Áudio na Mitologia Nórdica</h2>
+    <button onclick="playAudio()">Tocar música 🎶</button>
+
+    <div id="yt-player" style="display: none;">
+      <iframe 
+        src="https://www.youtube.com/embed/9lkHIJc1ixM?si=fd3WfkwSZNEJOE9J&autoplay=1" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media">
+      </iframe>
+    </div>
+    
+    <script>
+      function playAudio() {
+        document.getElementById('yt-player').style.display = 'block';
+      }
+    </script>
+    
+
+
+    <br><br>
+    <a href="file:///C:/Users/sofia/OneDrive/Documentos/trabalho%201/index.html">Voltar à Página Principal</a>
+
+</body>
+</html>
+
